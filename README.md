@@ -32,7 +32,7 @@ This code can be used by opening each .R or .Rmd file within RStudio, version 20
 
 #### Link to Data
 
-Our dataset can be found [here](https://www.kaggle.com/datasets/PromptCloudHQ/taylor-swift-song-lyrics-from-all-the-albums) [1].
+Our dataset can be found [here](https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset) [1].
 
 #### Relevant Notes About Data
 
@@ -47,7 +47,7 @@ There are several significant notes about our dataset. Firstly, it is important 
 
 ## References
 
-[1] Vimal, Tarun, “Taylor Swift Song Lyrics from all the albums,” Kaggle.com, CC BY-SA 4.0, 2018. [Online]. Available: https://www.kaggle.com/datasets/PromptCloudHQ/taylor-swift-song-lyrics-from-all-the-albums. [Accessed February 14, 2023].
+[1] Raikote, Pranav, “Covid-19 Image Dataset,” Kaggle.com, CC BY-SA 4.0, 2020. [Online]. Available: https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset. [Accessed March 14, 2023].
 
 Our submission for M1 can be found [here](https://docs.google.com/document/d/1kSw-WgsIzZXb8ecAi_E-I_ueoU8nlRZUaWE8Y-7jrLc/edit?usp=sharing).
 
