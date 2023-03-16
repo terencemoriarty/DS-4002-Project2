@@ -6,7 +6,7 @@ This repository includes all of the necessary files related to the first DS 4002
 
 ## SRC
 
-We pulled the source data from Kaggle. It includes all of Taylor Swift's songs released during the time frame 2006-2017. It also includes the lyrics, song name, album name, and year of release.
+We pulled the source data from Kaggle. It includes images of chest x-rays of patients with COVID-19, patients with viral pnemonia, and healthy lungs. The dataset consists of six different directories, split by recommending testing and training data, each containing a directory for each diagnosed condition.
 
 ### Installing/Building Code
 
