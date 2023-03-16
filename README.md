@@ -6,7 +6,7 @@ This repository includes all of the necessary files related to the second DS 400
 
 ## SRC
 
-We pulled the source data from Kaggle. It includes images of chest x-rays of patients with COVID-19, patients with viral pnemonia, and healthy lungs. The dataset consists of six different directories, split by recommending testing and training data, each containing a directory for each diagnosed condition.
+We pulled the source data from Kaggle. It includes images of chest X-rays of patients with COVID-19, patients with viral pnemonia, and healthy lungs. The dataset consists of six different directories, split by recommending testing and training data, each containing a directory for each diagnosed condition.
 
 ### Installing/Building Code
 
@@ -22,12 +22,12 @@ This code can be used by opening each .R or .Rmd file within RStudio, version 20
 
 | Folder Name         | Data Type     | Description |
 | ------------------- | ------------- | ----------- |
-| test/Covid          | jpeg, jpg, png| This folder contains jpeg, jpg, and png images of chest x-rays of patients with COVID-19 for testing a model against. |
-| test/Normal         | jpeg          | This folder contains jpeg images of chest x-rays of healthy patients for testing a model against.|
-| test/Viral Pnemonia | jpeg          | This folder contains jpeg images of chest x-rays of patients with Viral Pneumonia for testing a model against.|
-| train/Covid         | jpeg, jpg, png| This folder contains jpeg, jpg, and png images of chest x-rays of patients with COVID-19 for training a model. |
-| train/Normal        | jpeg          | This folder contains jpeg images of chest x-rays of healthy patients for training a model.|
-| train/Viral Pnemonia| jpeg          | This folder contains jpeg images of chest x-rays of patients with Viral Pneumonia for training a model. |
+| test/Covid          | jpeg, jpg, png| This folder contains jpeg, jpg, and png images of chest X-rays of patients with COVID-19 for testing a model against. |
+| test/Normal         | jpeg          | This folder contains jpeg images of chest X-rays of healthy patients for testing a model against.|
+| test/Viral Pnemonia | jpeg          | This folder contains jpeg images of chest X-rays of patients with Viral Pneumonia for testing a model against.|
+| train/Covid         | jpeg, jpg, png| This folder contains jpeg, jpg, and png images of chest X-rays of patients with COVID-19 for training a model. |
+| train/Normal        | jpeg          | This folder contains jpeg images of chest X-rays of healthy patients for training a model.|
+| train/Viral Pnemonia| jpeg          | This folder contains jpeg images of chest X-rays of patients with Viral Pneumonia for training a model. |
 
 #### Link to Data
 
