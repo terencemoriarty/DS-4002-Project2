@@ -20,15 +20,14 @@ This code can be used by opening each .R or .Rmd file within RStudio, version 20
 
 #### Data Dictionary
 
-| Column Name | Data Type   | Description |
-| ----------- | ----------- | ----------- |
-| artist      | String      | This column contains a string of the name of the artist of the song. In this data set, all values in this column are “Taylor Swift”. |
-| album       | String      | This column contains a string of the name of the album the song lyrics are from. This has six unique values, which include: “Taylor Swift”, “Fearless”, “Speak Now”, “Red”, “1989”, and “Reputation”. |
-| track_title | String      | This column contains a string of the name of the song that lyrics are from. |
-| track_n     | Integer     | This column contains the integer of the track number on the album of the song that lyrics are from. |
-| lyrics      | String      | This column contains a string of the song lyrics from the song and line described in the other columns. |
-| line        | Integer     | This column contains an integer of what line of the song the lyrics are from. |
-| year        | Integer     | This column contains an integer value of the year the song the lyrics are from were released. |
+| Folder Name         | Data Type     | Description |
+| ------------------- | ------------- | ----------- |
+| test/Covid          | jpeg, jpg, png| This folder contains jpeg, jpg, and png images of chest x-rays of patients with COVID-19 for testing a model against. |
+| test/Normal         | jpeg          | This folder contains jpeg images of chest x-rays of healthy patients for testing a model against.|
+| test/Viral Pnemonia | jpeg          | This folder contains jpeg images of chest x-rays of patients with Viral Pneumonia for testing a model against.|
+| train/Covid         | jpeg, jpg, png| This folder contains jpeg, jpg, and png images of chest x-rays of patients with COVID-19 for training a model. |
+| train/Normal        | jpeg          | This folder contains jpeg images of chest x-rays of healthy patients for training a model.|
+| train/Viral Pnemonia| jpeg          | This folder contains jpeg images of chest x-rays of patients with Viral Pneumonia for training a model. |
 
 #### Link to Data
 
@@ -49,6 +48,6 @@ There are several significant notes about our dataset. Firstly, it is important 
 
 [1] Raikote, Pranav, “Covid-19 Image Dataset,” Kaggle.com, CC BY-SA 4.0, 2020. [Online]. Available: https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset. [Accessed March 14, 2023].
 
-Our submission for M1 can be found [here](https://docs.google.com/document/d/1kSw-WgsIzZXb8ecAi_E-I_ueoU8nlRZUaWE8Y-7jrLc/edit?usp=sharing).
+Our submission for M1 can be found [here](https://docs.google.com/document/d/15BI0JMWRXRKFiejG8Nu_kt_VcEqPVRjsSN_60aouXlg/edit?usp=sharing).
 
-Our submission for M2 is linked [here](https://docs.google.com/document/d/1C0tUSKeAW0-qPkJrtTJGI97A4vV8yJptQ7cCOelM19A/edit?usp=sharing).
+Our submission for M2 is linked [here](https://docs.google.com/document/d/1CNDYayc-ehutT4BBa86Op7M2H-f36dQVTdlzm7_qeuM/edit?usp=sharing).
