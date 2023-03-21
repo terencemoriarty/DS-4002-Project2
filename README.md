@@ -2,7 +2,7 @@
 
 ## Contents of the Repository
 
-This repository includes all of the necessary files related to the second DS 4002 project for our group, The Swifties. This README.md file contains an overview of what is included in each of the three folders: SRC, Data, and Figures. The LICENSE.md file explains to a visitor the terms under which they may use and cite this repository. The SRC folder contains all source code for the project. The Data folder contains all of the data for the project. Lastly, the Figures folder contains all figures generated over the course of the project.
+This repository includes all of the necessary files related to the second DS 4002 project for our group, The Swifties. This README.md file contains an overview of what is included in each of the three folders: SRC, DATA, and FIGURES. The LICENSE.md file explains to a visitor the terms under which they may use and cite this repository. The SRC folder contains all source code for the project. The DATA folder contains all of the data for the project. Lastly, the FIGURES folder contains all figures generated over the course of the project.
 
 ## SRC
 
@@ -10,11 +10,11 @@ We pulled the source data from Kaggle. It includes images of chest X-rays of pat
 
 ### Installing/Building Code
 
-We downloaded the data as a .csv file and cleaned it for use in R. Make sure the data is available and accessible in the same working directory as the file, and make any neccessary changes to the file path in order for the dataset to be loaded into RStudio on your device.
+We downloaded the data as a collection of image files and cleaned it for use in Python. Make sure the data is available and accessible in the same working directory as the file, and make any neccessary changes to the file path in order for the dataset to be available on your device.
 
 ### Using Code
 
-This code can be used by opening each .R or .Rmd file within RStudio, version 2022.12.
+This code can be used by running py .\example.py using Python version 3.11.2.
 
 ## Data
 
@@ -35,14 +35,13 @@ Our dataset can be found [here](https://www.kaggle.com/datasets/pranavraikokte/c
 
 #### Relevant Notes About Data
 
-There are several significant notes about our dataset. Firstly, it is important to note that it only contains lyrics from Taylor Swift's first six albums, not her entire discography. This led to our group adjusting our hypothesis and research question accordingly. Additionally, it is important to note that the dataset breaks up lyrics by line in each song, so some data aggregation will be necessary in order to use each song as individual data points.
+It is important to note that the dataset only contains pictures from those affected by COVID-19, Viral Pneumonia, or those unaffected by disease, not people affected by other diseases involving the lungs. This is what caused us to limit our model to these three categories.
 
 ## Figures 
 
 | Figure      | Description | Takeaways   |
 | ----------- | ----------- | ----------- |
-| Romance:CountryRatioGraph.png| This graph has each Taylor Swift song plotted with the year of release on the x-axis and it's romance-to-country ratio on the y-axis. It also includes a line of best fit.| The line of best fit having a positive slope confirms our hypothesis that the lyrics of Taylor Swift's songs have shifted from being more aligned with the country theme to more aligned with the romance theme. |
-| album.Romance:Country.png |  This graph has each Taylor Swift album plotted with the year of release on the x-axis and it's romance-to-country ratio on the y-axis. It also includes a line of best fit. | The line of best fit having a positive slope confirms our hypothesis that the lyrics of Taylor Swift's songs have shifted from being more aligned with the country theme to more aligned with the romance theme. |
+| Example.png| Example Description| Example takeaway|
 
 ## References
 
