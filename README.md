@@ -41,7 +41,7 @@ It is important to note that the dataset only contains pictures from those affec
 
 | Figure      | Description | Takeaways   |
 | ----------- | ----------- | ----------- |
-| Example.png| Example Description| Example takeaway|
+| ConfusionMatrixCOVID.png | This is a table of the confusion matrix of our k-means clustering model.| From this confusion matrix, we can see that most of the miss classified images are COVID and Normal images, but does misclassify any normal/ healthy lungs as COVID, meaning that a false positive result would not be likely. |
 
 ## References
 
